@@ -67,6 +67,7 @@ Reading Scores New
   * The other three metrics of score by school spending, school size, and school type were all unaffected by the removal of the 9th grade scores from Thomas High School.
  
 Scores by School Spending Old
+
 <img width="815" alt="Scores_by_School_Spending_Old" src="https://user-images.githubusercontent.com/99817571/159045724-61f2db83-7bf6-41bd-a33e-1a635fc8d985.png">
 
 Scores by School Spending New
@@ -76,12 +77,15 @@ Scores by School Size Old
 <img width="750" alt="Scores_by_School_Size_Old" src="https://user-images.githubusercontent.com/99817571/159045768-4862506f-20d0-4fb7-9a46-894e2d0e0f0d.png">
 
 Scores by School Size New
+
 <img width="753" alt="Scores_by_School_Size_New" src="https://user-images.githubusercontent.com/99817571/159045789-370a0509-6c56-440f-8647-9378eb5ec485.png">
 
 Scores by School Type Old
+
 <img width="706" alt="Scores_by_School_Type_Old" src="https://user-images.githubusercontent.com/99817571/159045826-dd80a659-6190-458f-93f6-c9414c75c50e.png">
 
 Scores by School Type New
+
 <img width="705" alt="Scores_by_School_Type_New" src="https://user-images.githubusercontent.com/99817571/159045847-f7b85a05-e58a-4200-81ca-8cd893a54a6d.png">
 
 ---
