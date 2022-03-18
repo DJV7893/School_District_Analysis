@@ -82,6 +82,7 @@ Scores by School Spending Old
 <img width="815" alt="Scores_by_School_Spending_Old" src="https://user-images.githubusercontent.com/99817571/159045724-61f2db83-7bf6-41bd-a33e-1a635fc8d985.png">
 
 Scores by School Spending New
+
 <img width="815" alt="Scores_by_School_Spending_New" src="https://user-images.githubusercontent.com/99817571/159049315-347ca230-6314-4288-a2c0-a870e5b9285f.png">
 
 Scores by School Size Old
@@ -103,7 +104,7 @@ Scores by School Type New
 ---
 ## Summary
 ---
-### Observations of Refactored School Data Set
+### Observations of Refactored School Analysis Data
 
 The removal of the 9th graders standardized test scores from THS does not impact significantly the summaries at the school or district level. The four minor changes we can observe are in the district summary. The Average Math Score decreased from 79 to 78.9 percent. The Overall Passing Math Score decreased from 75 to 74.8 percent. The Overall Passing Reading Score decreased from 86 to 85.7 percent. The Overall Passing for both Math and Reading Scores decreased from 65 to 64.9 percent.
 
