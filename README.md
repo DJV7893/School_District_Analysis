@@ -26,21 +26,68 @@
 Our refactored analysis produced the following results:
 
   * The district summary was only slightly affected by the exclusion of the test scores. Only a couple of the key metrics were reduced by less than a tenth of a decimal point.
+
 District Summary Old
-<img width="922" alt="District_Summary_Old" src="https://user-images.githubusercontent.com/99817571/159043550-e42909ec-fab6-429e-9dc1-b443ed514962.png"> District Summary New <img width="923" alt="District_Summary_New" src="https://user-images.githubusercontent.com/99817571/159043637-d40e5ce8-ee99-46c3-8622-c6879190e64e.png">
+<img width="922" alt="District_Summary_Old" src="https://user-images.githubusercontent.com/99817571/159043550-e42909ec-fab6-429e-9dc1-b443ed514962.png">  
 
+District Summary New 
+<img width="923" alt="District_Summary_New" src="https://user-images.githubusercontent.com/99817571/159043637-d40e5ce8-ee99-46c3-8622-c6879190e64e.png">
 
-  * The school summary remained entirely the same even for Thomas High School after we removed the scores for its 9th graders and recalculated the high school’s performance metrics, which only took a slight dip in its performance metrics of less than .5 percentage point. 
+  * The school summary remained entirely the same even for THS after we removed the scores for its 9th graders and recalculated the high school’s performance metrics, which only took a slight dip in its performance metrics of less than .5 percentage point. 
 
-  * As a result, Thomas High School remained as the second best performing high schools in the district after we removed the scores for the 9th grade.
+School Summary Old
+<img width="986" alt="School_Summary_Old" src="https://user-images.githubusercontent.com/99817571/159044056-1392eff3-4809-4b5c-8e3b-e6291646f51c.png">
 
-  * The removal of the 9th graders impacted the following metrics as such:
+School Summary New
+<img width="986" alt="School_Summary_New" src="https://user-images.githubusercontent.com/99817571/159044101-ebe57bce-4ee1-4460-aab1-29bfeba93e22.png">
 
-    * The scores by grade for both math and reading for each high school remained the same except for the 9th grade of Thomas High School which has an empty of value of NaN
+  * As a result, THS remained as the second best performing high schools in the district after we removed the scores for the 9th grade.
 
-    * The other three metrics of score by school spending, school size, and school type were all unaffected by the removal of the 9th grade scores from Thomas High School.
+Top 5 Performing Schools Old
+<img width="990" alt="Top_5_Performing_Old" src="https://user-images.githubusercontent.com/99817571/159044170-fbbbdb81-4305-47fa-a259-28aa9d479bb9.png">  
 
+Top 5 Performing Schools New
+<img width="988" alt="Top_5_Performing_New" src="https://user-images.githubusercontent.com/99817571/159044223-bd2e5a83-ebd6-4145-b4d5-944c60511cfe.png">
 
+  * The removal of the 9th graders from THS impacted the following metrics as such:
 
+    * The scores by grade for both math and reading for each high school remained the same except for the 9th grade of THS which is left as NaN.
+Math Scores Old  Math Scores New 
+<img width="294" alt="Math_Scores_Old" src="https://user-images.githubusercontent.com/99817571/159044706-cff35cb4-f68e-4652-8ad4-afcd5c8e283a.png">       <img width="295" alt="Math_Scores_New" src="https://user-images.githubusercontent.com/99817571/159044933-02e495c4-3437-4fa3-a317-17929ea56e4c.png">
 
+Reading Scores Old     Reading Scores New
+<img width="295" alt="Reading_Scores_Old" src="https://user-images.githubusercontent.com/99817571/159045378-9a8a7a51-ba79-4986-bdb7-76840e352477.png">  <img width="296" alt="Reading_Scores_New" src="https://user-images.githubusercontent.com/99817571/159045403-e5b7b83e-767d-485b-a990-920b8d46a6f9.png">
 
+  * The other three metrics of score by school spending, school size, and school type were all unaffected by the removal of the 9th grade scores from Thomas High School.
+ 
+Scores by School Spending Old
+<img width="815" alt="Scores_by_School_Spending_Old" src="https://user-images.githubusercontent.com/99817571/159045724-61f2db83-7bf6-41bd-a33e-1a635fc8d985.png">
+
+Scores by School Spending New
+<img width="817" alt="Scores_by_School_Spending_New" src="https://user-images.githubusercontent.com/99817571/159045736-36d7088c-9511-455a-90d8-8e1250dc151a.png">
+
+Scores by School Size Old
+<img width="750" alt="Scores_by_School_Size_Old" src="https://user-images.githubusercontent.com/99817571/159045768-4862506f-20d0-4fb7-9a46-894e2d0e0f0d.png">
+
+Scores by School Size New
+<img width="753" alt="Scores_by_School_Size_New" src="https://user-images.githubusercontent.com/99817571/159045789-370a0509-6c56-440f-8647-9378eb5ec485.png">
+
+Scores by School Type Old
+<img width="706" alt="Scores_by_School_Type_Old" src="https://user-images.githubusercontent.com/99817571/159045826-dd80a659-6190-458f-93f6-c9414c75c50e.png">
+
+Scores by School Type New
+<img width="705" alt="Scores_by_School_Type_New" src="https://user-images.githubusercontent.com/99817571/159045847-f7b85a05-e58a-4200-81ca-8cd893a54a6d.png">
+
+---
+## Summary
+---
+### Observations of Refactored School Data Set
+
+The removal of the 9th graders standardized test scores from THS does not impact significantly the summaries at the school or district level. The four minor changes we can observe are in the district summary. The Average Math Score decreased from 79 to 78.9 percent. The Overall Passing Math Score decreased from 75 to 74.8 percent. The Overall Passing Reading Score decreased from 86 to 85.7 percent. The Overall Passing for both Math and Reading Scores decreased from 65 to 64.9 percent.
+
+---
+## Resources
+---
+Data Source: students_complete.csv, schools_complete.csv
+
+Software: Anaconda 4.12.0, Jupyter Notebook, Python 3.7.6
