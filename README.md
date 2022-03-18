@@ -26,8 +26,8 @@
 Our refactored analysis produced the following results:
 
   * The district summary was only slightly affected by the exclusion of the test scores. Only a couple of the key metrics were reduced by less than a tenth of a decimal point.
-District Summary Old District Summary New
-<img width="922" alt="District_Summary_Old" src="https://user-images.githubusercontent.com/99817571/159043550-e42909ec-fab6-429e-9dc1-b443ed514962.png"> <img width="923" alt="District_Summary_New" src="https://user-images.githubusercontent.com/99817571/159043637-d40e5ce8-ee99-46c3-8622-c6879190e64e.png">
+District Summary Old
+<img width="922" alt="District_Summary_Old" src="https://user-images.githubusercontent.com/99817571/159043550-e42909ec-fab6-429e-9dc1-b443ed514962.png"> District Summary New <img width="923" alt="District_Summary_New" src="https://user-images.githubusercontent.com/99817571/159043637-d40e5ce8-ee99-46c3-8622-c6879190e64e.png">
 
 
   * The school summary remained entirely the same even for Thomas High School after we removed the scores for its 9th graders and recalculated the high school’s performance metrics, which only took a slight dip in its performance metrics of less than .5 percentage point. 
