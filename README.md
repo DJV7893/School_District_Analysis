@@ -23,7 +23,7 @@
 ---
 ### Results
 
-Our refactored analysis produced the following results:
+Our refactored school data analysis produced the following results:
 
   * The district summary was only slightly affected by the exclusion of the test scores. Only a couple of the key metrics were reduced by less than a tenth of a decimal point.
 
