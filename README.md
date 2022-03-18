@@ -35,7 +35,7 @@ District Summary New
 
 <img width="923" alt="District_Summary_New" src="https://user-images.githubusercontent.com/99817571/159043637-d40e5ce8-ee99-46c3-8622-c6879190e64e.png">
 
-  * The school summary remained entirely the same even for THS after we removed the scores for its 9th graders and recalculated the high school’s performance metrics, which only took a slight dip in its performance metrics of less than .5 percentage point. 
+  * The school summary remained almost entirely the same except for THS after we removed the scores for its 9th graders and recalculated the high school’s performance metrics, resulting in a slight dip in its performance metrics of less than .5 percentage point. 
 
 School Summary Old
 
