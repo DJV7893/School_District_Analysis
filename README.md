@@ -52,11 +52,17 @@ Top 5 Performing Schools New
   * The removal of the 9th graders from THS impacted the following metrics as such:
 
     * The scores by grade for both math and reading for each high school remained the same except for the 9th grade of THS which is left as NaN.
-Math Scores Old  Math Scores New 
-<img width="294" alt="Math_Scores_Old" src="https://user-images.githubusercontent.com/99817571/159044706-cff35cb4-f68e-4652-8ad4-afcd5c8e283a.png">       <img width="295" alt="Math_Scores_New" src="https://user-images.githubusercontent.com/99817571/159044933-02e495c4-3437-4fa3-a317-17929ea56e4c.png">
+Math Scores Old  
+<img width="294" alt="Math_Scores_Old" src="https://user-images.githubusercontent.com/99817571/159044706-cff35cb4-f68e-4652-8ad4-afcd5c8e283a.png">       
 
-Reading Scores Old     Reading Scores New
-<img width="295" alt="Reading_Scores_Old" src="https://user-images.githubusercontent.com/99817571/159045378-9a8a7a51-ba79-4986-bdb7-76840e352477.png">  <img width="296" alt="Reading_Scores_New" src="https://user-images.githubusercontent.com/99817571/159045403-e5b7b83e-767d-485b-a990-920b8d46a6f9.png">
+Math Scores New
+<img width="295" alt="Math_Scores_New" src="https://user-images.githubusercontent.com/99817571/159044933-02e495c4-3437-4fa3-a317-17929ea56e4c.png">
+
+Reading Scores Old     
+<img width="295" alt="Reading_Scores_Old" src="https://user-images.githubusercontent.com/99817571/159045378-9a8a7a51-ba79-4986-bdb7-76840e352477.png">  
+
+Reading Scores New
+<img width="296" alt="Reading_Scores_New" src="https://user-images.githubusercontent.com/99817571/159045403-e5b7b83e-767d-485b-a990-920b8d46a6f9.png">
 
   * The other three metrics of score by school spending, school size, and school type were all unaffected by the removal of the 9th grade scores from Thomas High School.
  
